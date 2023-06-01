@@ -1,0 +1,39 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+background-color: lightcoral;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-container{
+  background-image: url('https://images.pexels.com/photos/10368563/pexels-photo-10368563.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  min-width: 300px;
+}
+
+.player-card{
+  box-shadow: 3px 3px 20px 5px;
+  height: 400px;
+  max-width: 280px;
+  min-width: 230px;
+}
+
+.player-logo{
+  transition: transform 0.2s;
+  height: 350px;
+  border-radius: 20px;
+
+}
+
+.player-card:hover .player-logo{
+ transform:  scale(0.95); 
+}
+.yazı{
+  text-align: right;
+}
